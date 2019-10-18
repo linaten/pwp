@@ -6,12 +6,12 @@
 </head>
 <body>
 <h1>Purpose</h1>
-The purpose of this site will be to act as an advertisement/sample with which to attract small businesses abroad who would like a website in English.
+The purpose of this site will be to act as an advertisement/sample with which to attract small businesses abroad who would like a website/page in English.
 <p></p>
 <h1>Audience</h1>
-<p>This site will be used by small businesses in foreign countries who are wanting to add a page to their website in english to attract a wider tourist clientele</p>
+<p>This site will be used by small businesses in foreign countries who are wanting to attract a wider tourist clientele.</p>
 <h1>Goal</h1>
-<p> The goal of this website is to attract potential freelance clients</p>
+<p> The goal of this website is to attract potential freelance clients.</p>
 <h1>Persona</h1>
 <h2>Name</h2>
 <p>Katarina</p>
@@ -22,6 +22,6 @@ The purpose of this site will be to act as an advertisement/sample with which to
 <h2>Frustrations</h2>
 <p>Katarina does speak some English, but does not know how to read or write it.</p>
 <h2>Additional Information</h2>
-<p>A translator or at a minumum google translate will need to be used to translate the website content into Russian</p>
+<p>A translator or at a minumum google translate will need to be used to translate the website content into Russian for her.</p>
 </body>
 </html>
