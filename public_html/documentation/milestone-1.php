@@ -6,6 +6,7 @@
 </head>
 <body>
 <h1>Purpose</h1>
+The purpose of this site will be to act as an advertisement/sample with which to attract small businesses abroad who would like a website in English.
 <p></p>
 <h1>Audience</h1>
 <p>This site will be used by small businesses in foreign countries who are wanting to add a page to their website in english to attract a wider tourist clientele</p>
@@ -15,7 +16,7 @@
 <h2>Name</h2>
 <p>Katarina</p>
 <h2>Demographics</h2>
-<p>Katarina is a small business owner who lives in Siberia. Katarina is in her late thirties and has moderate experience with using a computer. Katarina understands that tourism is growing in her town, and has </p>
+<p>Katarina is a small business owner who lives in Central Russia. Katarina is in her late thirties and has moderate experience with using a computer. Katarina understands that tourism is growing in her town, and that she will need revenue from English-speaking tourists to have enough income to help her in the winter when revenue will be low. Katarina's business is staffed mostly by her family, with a couple of non-relative employees. She does not have a lot of time for hobbies, but does enjoy talking with her customers. </p>
 <h2>User Goal</h2>
 <p>Katarina's goal for this website is to find a person that can create a website page in English for her company.</p>
 <h2>Frustrations</h2>
