@@ -1,5 +1,11 @@
 # pwp
 
+## Milestone 1 feedback
+Purpose, audience, & goal will work with the content you have here but it may also benefit with more detail. For example, identifying the types of businesses you want to work with would help define your scope of clients to a finer scale. Defining your audience will always benefit your approach when it comes to development. 
+
+Persona lacks a bit of detail as well but it gets the point across of a general overview of the type of person you may attract with your goal. Everything you have here will suffice but as always, the more detail you can provide in the early phases of development will give you more of a solid path in what is ahead.
+
+Tier II
 
 ## Milestone 2 feedback
 
