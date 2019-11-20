@@ -18,5 +18,4 @@
 	<p>
 		<img src="full.png">
 	</p>
-
 </body>

@@ -25,10 +25,34 @@ background:
 	background-color: #fff;
 	background-size: 150px 150px;
 	background-repeat: repeat;}
+
+	.welcome{
+		border-color: black;
+		border-style: solid;
+		background-color: white;
+		font-size: x-large;
+		text-align: center;
+		padding-bottom: auto;
+	}
 	.container{
 		border-color: black;
 		border-style: solid;
 		background-color: white;
 		font-size: larger;
-
 	}
+	.aboutme{
+		border-color: black;
+		border-style: solid;
+		background-color: white;
+		font-size: larger;
+		text-align: center;
+	}
+#RussianText{
+	font-family: 'Russo One', sans-serif !important;
+}
+
+.card{
+	margin: 0 auto; /* Added */
+	float: none; /* Added */
+	margin-bottom: 10px; /* Added */
+}
