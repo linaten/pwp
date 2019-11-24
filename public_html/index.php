@@ -28,7 +28,7 @@
 
 	<!-- this imports google's Russo One font" -->
 	<link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../php/style.css">
 
 	<!-- Google reCAPTCHA -->
 	<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -58,7 +58,7 @@
 				<a class="nav-link" href="#">About Me</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+				<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Me</a>
 			</li>
 		</ul>
 	</div>
@@ -74,7 +74,7 @@
 </div>
 
 <h2>Examples</h2>
-<img src="rmenu.png">
+<img src="../php/rmenu.png">
 <p></p>
 </div>
 <div>
@@ -94,7 +94,7 @@
 		</div>
 	<div class="card col-md-3 mx-auto" style="width: 18rem;">
 		<div class="card-body">
-<img src="facebook.jpg">
+<img src="../php/facebook.jpg">
 		</div>
 	</div>
 			<div class="card col-md-3 mx-auto" style="width: 18rem;">
@@ -106,4 +106,73 @@
 		</div>
 </div>
 </div>
+	<div class="sfooter-content">
+		<header class="py-5">
+			<div class="container">
+				<h1>Contact Me</h1>
+			</div>
+		</header>
+		<main class="container pb-5">
+			<div class="row">
+				<div class="col-md-6">
+					<!-- BEGIN CONTACT FORM -->
+					<form id="demo-form" method="post" action="php/mailer.php">
+						<div class="form-group">
+							<label for="demoName">Name</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fa fa-user"></i></span>
+								</div>
+								<input class="form-control" type="text" name="demoName" id="demoName"
+										 placeholder="Your Name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="demoEmail">Email</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fa fa-envelope"></i></span>
+								</div>
+								<input class="form-control" type="email" name="demoEmail" id="demoEmail"
+										 placeholder="Your Email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="demoSubject">Subject</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fa fa-pencil"></i></span>
+								</div>
+								<input class="form-control" type="text" name="demoSubject" id="demoSubject"
+										 placeholder="Subject">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="demoMessage">Message</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fa fa-comment"></i></span>
+								</div>
+								<textarea name="demoMessage" rows="5" id="demoMessage" class="form-control"
+											 placeholder="Your Message (2000 characters max)"></textarea>
+							</div>
+						</div>
+						<div class="g-recaptcha" data-sitekey="6LfJEpQUAAAAAPgG3aU_LxfW9284ZClYuKvvMjQ0"></div>
+						<button class="btn btn-info" type="submit">Submit</button>
+						<button class="btn btn-default" type="reset">Reset</button>
+					</form>
+					<!-- END CONTACT FORM-->
+					<div id="output-area"></div>
+				</div><!-- /.col-sm-6 -->
+			</div><!-- /.row -->
+		</main>
+	</div>
+	<footer class="py-4 text-white">
+		<div class="container">
+			<a class="text-white" href="https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/"
+				target="_blank">Documentation</a> | <a class="text-white"
+																	href="https://github.com/rlewis2892/pwp-form-demo"
+																	target="_blank">GitHub</a>
+		</div>
+	</footer>
 </body>
