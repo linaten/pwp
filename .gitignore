@@ -2,3 +2,5 @@
 /.idea
 /vendor
 /php/mail-config.php
+**/mail-config.php
+*/php/mail-config.php

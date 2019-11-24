@@ -16,8 +16,7 @@
 
 //mailgun API Key authorization
 
-$mailgunApiKey = "key-fcd15f71dce0f0184d9c2f828049e57d";
-$mailgunDomain = "sandboxff83d9ace6444d84aa6ff2af8c200013.mailgun.org";
+
 
 
 // your Google reCAPTCHA keys here
