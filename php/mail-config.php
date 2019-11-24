@@ -16,14 +16,14 @@
 
 //mailgun API Key authorization
 
-$mailgunApiKey = "pubkey-508834962fc71bb3afebb03465ba8319";
-$mailgunDomain = "key-ca1b5843ba34a53875307dd58553cf2c";
+$mailgunApiKey = "key-fcd15f71dce0f0184d9c2f828049e57d";
+$mailgunDomain = "sandboxff83d9ace6444d84aa6ff2af8c200013.mailgun.org";
 
 
 // your Google reCAPTCHA keys here
 // your Google reCAPTCHA keys here
-$siteKey = '6LeyTsQUAAAAAOcy7HZ5rCMA3NHna8JVKAozW1rq';
-$secret = '6LeyTsQUAAAAAO3pkXPZDmM5ap2CP_mRD4kZTG4S';
+$siteKey = '6LcwXsQUAAAAAArFKOowzQ-SCYU_sjzPZ1gXbUc8';
+$secret = '6LcwXsQUAAAAAEifK01CGTlLG44A-t0beAphUhyV';
 
 /**
  * attach the recipients to the message
