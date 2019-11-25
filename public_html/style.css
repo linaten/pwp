@@ -42,7 +42,7 @@ background:
 	.aboutme{
 		border-color: black;
 		border-style: solid;
-		background-color: #FDF2E9;
+		background-color: white;
 		font-size: larger;
 		text-align: center;
 	}
@@ -54,4 +54,16 @@ background:
 	margin: 0 auto; /* Added */
 	float: none; /* Added */
 	margin-bottom: 10px; /* Added */
+}
+
+#cardMe{
+	background-color: burlywood;
+	border-color: black;
+	border-style: solid;
+}
+
+#russiaOne{
+	background-color: burlywood;
+	border-color: black;
+	border-style: solid;
 }
