@@ -62,18 +62,21 @@ background:
 	text-align: center;
 }
 
+/* CSS for card container */
 .card{
 	margin: 0 auto; /* Added */
 	float: none; /* Added */
 	margin-bottom: 10px; /* Added */
 }
 
+/* CSS for card me */
 #cardMe{
 	background-color: burlywood;
 	border-color: black;
 	border-style: solid;
 }
 
+/* CSS for Russia One card */
 #russiaOne{
 	background-color: burlywood;
 	border-color: black;
