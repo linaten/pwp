@@ -1,4 +1,5 @@
 body{
+	/* background color creating geometric shapes */
 background:
 		/*shape*/
 		linear-gradient(115deg, transparent 89%, #e8ddcb 0) -128px -96px,
@@ -26,6 +27,7 @@ background:
 	background-size: 150px 150px;
 	background-repeat: repeat;}
 
+/* CSS for welcome container */
 	.welcome{
 		border-color: black;
 		border-style: solid;
@@ -33,12 +35,16 @@ background:
 		font-size: x-large;
 		text-align: center;
 	}
+
+	/* CSS for container */
 	.container{
 		border-color: black;
 		border-style: solid;
 		background-color: white;
 		font-size: larger;
 	}
+
+	/* CSS for about me container */
 	.aboutme{
 		border-color: black;
 		border-style: solid;
@@ -47,16 +53,13 @@ background:
 		text-align: center;
 	}
 
+	/*CSS for contact container */
 .contact{
 	border-color: black;
 	border-style: solid;
 	background-color: white;
 	font-size: larger;
 	text-align: center;
-}
-
-#RussianText{
-	font-family: 'Russo One', sans-serif !important;
 }
 
 .card{
