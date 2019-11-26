@@ -108,125 +108,129 @@
 	</div>
 </div>
 
+<!-- bootstrap cards inside of container. Contains sample menus in both English and Russian -->
 <div class="examples mt-5" id="Examples">
 	<h1>Examples | Примеры</h1>
 </div>
 
+<!-- first card containing English menu -->
 <div class="Example bg-transparent mt-5 text-center">
 	<div class="row">
+		<div class="card-body">
+			<img class="img-fluid" src="EnglishMenu.JPG">
+		</div>
+
+		<!-- second card containing Russian menu -->
+		<div class="card-body">
+			<img class="img-fluid" src="RussianMenu.JPG">
+		</div>
+	</div>
+</div>
+
+<!-- Third container holding bootstrap cards. This section has information on who I am, and includes a photo of me-->
+<div class="aboutme mt-5" id="AboutMe">
+	<h2>About Me | Обо мне</h2>
+</div>
+
+<!-- next container holding three bootstrap cards -->
+<div class="container1 bg-transparent mt-5 text-center">
+	<div class="row">
+
+		<!--First bootstrap card in container describing who I am in English -->
+		<div class="card col-md-3 mx-auto border-dark" style="width: 18rem;">
 			<div class="card-body">
-				<img class="img-fluid" src="EnglishMenu.JPG">
+				<h5 class="card-title">About Me</h5>
+				<h6 class="card-subtitle mb-2 text-muted">English</h6>
+				<p class="card-text">I am a traveler and a freelance writer and computer programming. I have travelled
+					through over 30 countries, and am passionate about experiencing new cultures and locations. As a
+					tourist and a backpacker, I am uniquely qualified to understand what this demographic needs.</p>
 			</div>
+		</div>
 
-
+		<!-- second bootstrap card containing a picture of me -->
+		<div class="card col-md-3 mx-auto padding: .5 border-dark" style="width: 18rem" id="cardMe">
 			<div class="card-body">
-				<img class="img-fluid" src="RussianMenu.JPG">
+				<img class="img-fluid" src="facebook.jpg">
+			</div>
+		</div>
+
+		<!-- third bootstrap card containing information about me in Russian -->
+		<div class="card col-md-3 mx-auto border-dark" style="width: 18rem;">
+			<div class="card-body">
+				<h5 class="card-title">Обо мне</h5>
+				<h6 class="card-subtitle mb-2 text-muted">русский</h6>
+				<p class="card-text">Я путешественник, независимый писатель и программист. Я путешествовал по более чем
+					30 странам и страстно желаю познакомиться с новыми культурами и местами. Как турист и турист, я обладаю
+					уникальной квалификацией, чтобы понять, что нужно этой демографической потребности.</p>
 			</div>
 		</div>
 	</div>
+</div>
 
-
-	<div class="aboutme mt-5" id="AboutMe">
-		<h2>About Me | Обо мне</h2>
-	</div>
-
-	<!--example attempt at a card with bootstrap -->
-	<div class="container1 bg-transparent mt-5 text-center">
-		<div class="row">
-
-			<div class="card col-md-3 mx-auto border-dark" style="width: 18rem;">
-				<div class="card-body">
-					<h5 class="card-title">About Me</h5>
-					<h6 class="card-subtitle mb-2 text-muted">English</h6>
-					<p class="card-text">I am a traveler and a freelance writer and computer programming. I have travelled
-						through over 30 countries, and am passionate about experiencing new cultures and locations. As a
-						tourist and a backpacker, I am uniquely qualified to understand what this demographic needs.</p>
-				</div>
-			</div>
-
-			<div class="card col-md-3 mx-auto padding: .5 border-dark" style="width: 18rem" id="cardMe">
-				<div class="card-body">
-					<img class="img-fluid" src="facebook.jpg">
-				</div>
-			</div>
-
-			<div class="card col-md-3 mx-auto border-dark" style="width: 18rem;">
-				<div class="card-body">
-					<h5 class="card-title">Обо мне</h5>
-					<h6 class="card-subtitle mb-2 text-muted">русский</h6>
-					<p class="card-text">Я путешественник, независимый писатель и программист. Я путешествовал по более чем
-						30
-						странам и страстно желаю познакомиться с новыми культурами и местами. Как турист и турист, я обладаю
-						уникальной квалификацией, чтобы понять, что нужно этой демографической потребности.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
+<!-- container with Contact Me header -->
 <div class="contact mt-5" id="contact">
 	<h1>Contact Me | Свяжитесь со мной</h1>
 </div>
 
 
+<main class="container mt-5 pb-5">
+	<div class="row">
+		<div class="col-md-6">
 
-<div class="sfooter-content">
-
-	<main class="container mt-5 pb-5">
-		<div class="row">
-			<div class="col-md-6">
-
-				<!-- BEGIN CONTACT FORM -->
-				<form id="demo-form" method="post" action="php">
-					<div class="form-group">
-						<label for="demoName">Name | название</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text"><i class="fa fa-user"></i></span>
-							</div>
-							<input class="form-control" type="text" name="name" id="name"
-									 placeholder="Your Name">
+			<!-- BEGIN CONTACT FORM -->
+			<form id="demo-form" method="post" action="php">
+				<!-- div class containing section of contact form where user inputs their name -->
+				<div class="form-group">
+					<label for="demoName">Name | название</label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fa fa-user"></i></span>
 						</div>
+						<input class="form-control" type="text" name="name" id="name"
+								 placeholder="Your Name">
 					</div>
-					<div class="form-group">
-						<label for="demoEmail">Email | Эл. адрес</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text"><i class="fa fa-envelope"></i></span>
-							</div>
-							<input class="form-control" type="email" name="email" id="email"
-									 placeholder="Your Email">
+				</div>
+				<div class="form-group">
+					<!-- div class containing section of contact form where the user inputs their email address-->
+					<label for="demoEmail">Email | Эл. адрес</label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fa fa-envelope"></i></span>
 						</div>
+						<input class="form-control" type="email" name="email" id="email"
+								 placeholder="Your Email">
 					</div>
-					<div class="form-group">
-						<label for="demoSubject">Subject | Тема</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text"><i class="fa fa-pencil"></i></span>
-							</div>
-							<input class="form-control" type="text" name="demoSubject" id="demoSubject"
-									 placeholder="Subject">
+				</div>
+				<!-- div class containing section of contact form where the user inputs the subject of their message-->
+				<div class="form-group">
+					<label for="demoSubject">Subject | Тема</label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fa fa-pencil"></i></span>
 						</div>
+						<input class="form-control" type="text" name="demoSubject" id="demoSubject"
+								 placeholder="Subject">
 					</div>
-					<div class="form-group">
-						<label for="demoMessage">Message | Сообщение</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text"><i class="fa fa-comment"></i></span>
-							</div>
-							<textarea name="message" rows="5" id="message" class="form-control"
-										 placeholder="Your Message (2000 characters max)"></textarea>
+				</div>
+				<!-- div class containing section of contact form where the user inputs their message -->
+				<div class="form-group">
+					<label for="demoMessage">Message | Сообщение</label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fa fa-comment"></i></span>
 						</div>
+						<textarea name="message" rows="5" id="message" class="form-control"
+									 placeholder="Your Message (2000 characters max)"></textarea>
 					</div>
-					<div class="g-recaptcha" data-sitekey="6LcwXsQUAAAAAArFKOowzQ-SCYU_sjzPZ1gXbUc8"></div>
-					<button class="btn btn-info" type="submit">Submit | Разместить</button>
-					<button class="btn btn-default" type="reset">Reset | сброс</button>
-				</form>
-				<!-- END CONTACT FORM-->
-				<div id="output-area"></div>
-			</div><!-- /.col-sm-6 -->
-		</div><!-- /.row -->
-	</main>
-</div>
-<footer class="py-4 text-white">
-</footer>
+				</div>
+				<!-- div class containing recaptcha form to validate a human user -->
+				<div class="g-recaptcha" data-sitekey="6LcwXsQUAAAAAArFKOowzQ-SCYU_sjzPZ1gXbUc8"></div>
+				<button class="btn btn-info" type="submit">Submit | Разместить</button>
+				<button class="btn btn-default" type="reset">Reset | сброс</button>
+			</form>
+			<!-- END CONTACT FORM-->
+			<div id="output-area"></div>
+		</div><!-- /.col-sm-6 -->
+	</div><!-- /.row -->
+</main>
 </body>
