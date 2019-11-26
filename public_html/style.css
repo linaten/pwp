@@ -46,6 +46,15 @@ background:
 		font-size: larger;
 		text-align: center;
 	}
+
+.contact{
+	border-color: black;
+	border-style: solid;
+	background-color: white;
+	font-size: larger;
+	text-align: center;
+}
+
 #RussianText{
 	font-family: 'Russo One', sans-serif !important;
 }
