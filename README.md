@@ -14,3 +14,7 @@ Your content strategy will work here. When it comes to the Contact section, your
 If you need additional resourcers for the development aspects of your project, feel free to reach out to the instructors so that we may guide you in the direction of some functionality you may be seeking. Continue on moving forward with the development of your PWP. Keep up the good work!
 
 This passes at Tier III
+
+## Milestone 4 feedback
+Looks good! Submitted on time. There are a couple minor errors on your page: navbar text not changed, minor alignment issues. Your site renders on mobile and adjusts in the browser as expected. 
+Passes at Tier III. 
